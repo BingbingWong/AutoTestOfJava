@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suitename">
+    <test name="runAll">
+        <classes>
+            <class name="com.course.testng.groups.GroupsOnClass1"/>
+            <class name="com.course.testng.groups.GroupsOnClass2"/>
+            <class name="com.course.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+    <test name="onlyRunStu">
+        <!--run标签中的include标签：只运行run中包含的方法stu-->
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.course.testng.groups.GroupsOnClass1"/>
+            <class name="com.course.testng.groups.GroupsOnClass2"/>
+            <class name="com.course.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>
