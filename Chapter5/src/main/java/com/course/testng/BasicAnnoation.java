@@ -3,16 +3,16 @@ import org.testng.annotations.*;
 
 public class BasicAnnoation {
     //最基本的注解，用来把方法标记为测试的一部分
-    @Test
+    @Test(groups = "stu")
     public void testCase1(){
         System.out.printf("Thread Id:%s%n",Thread.currentThread().getId());
         System.out.println("Test这是测试用例1");
     }
-    @Test
+ /*   @Test
     public void testCase2(){
         System.out.printf("Thread Id:%s%n",Thread.currentThread().getId());
         System.out.println("Test这是测试用例2");
-    }
+    }*/
     @BeforeMethod
     public void beforeMethod(){
         System.out.println("BeforeMethod这是在测试方法之前运行的");
@@ -37,4 +37,21 @@ public class BasicAnnoation {
     public void afterSuite(){
         System.out.println("AfterSuite测试套件");
     }
+    @BeforeGroups(groups = "stu")
+    public void beforeGroup(){
+        System.out.println("BeforeGroups测试组");
+    }
+    @AfterGroups(groups = "stu")
+    public void afterGroup(){
+        System.out.println("AfterGroups测试组");
+    }
+    @BeforeTest
+    public void beforeTest(){
+        System.out.println("BeforeTest测试");
+    }
+    @AfterTest
+    public void afterTest(){
+        System.out.println("AfterTest测试");
+    }
+
 }

@@ -67,18 +67,14 @@ public class MyCookiesForPost {
         String uri = bundle.getString("test.post.with.cookies");
         //拼接最终的测试地址
         String testUrl = this.url + uri;
-
         //声明一个Client对象，用来进行方法的执行
         DefaultHttpClient client = new DefaultHttpClient();
-
         //声明一个方法，这个方法就是post方法
         HttpPost post = new HttpPost(testUrl);
-
         //添加参数
         JSONObject param = new JSONObject();
         param.put("name","huhansan");
         param.put("age","18");
-
         //设置请求头信息 设置header
         post.setHeader("content-type","application/json");
         //将参数信息添加到方法中
@@ -97,8 +93,6 @@ public class MyCookiesForPost {
         //处理结果，就是判断返回结果是否符合预期
         //将返回的响应结果字符串转化成为json对象
         JSONObject resultJson = new JSONObject(result);
-
-
         //获取到结果值
         String success = (String) resultJson.get("huhansan");
         String status = (String) resultJson.get("status");
