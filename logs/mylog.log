@@ -1,0 +1,45 @@
+2020-01-04 09:40:28.521 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h14m17s358ms893µs198ns).
+2020-01-04 09:45:35.015 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-01-04 09:45:35.017 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 09:45:35.019 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-01-04 09:45:35.024 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-01-04 09:50:20.365 [main] INFO  com.course.Application - Starting Application on SKY-20181215SIQ with PID 8968 (E:\muke\AutoTestOfJava\Chapter11\target\classes started by Administrator in E:\muke\AutoTestOfJava)
+2020-01-04 09:50:20.370 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2020-01-04 09:50:21.242 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-01-04 09:50:21.771 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2020-01-04 09:50:21.782 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-04 09:50:21.782 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 09:50:21.872 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-04 09:50:21.873 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1340 ms
+2020-01-04 09:50:22.282 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 09:50:22.561 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-01-04 09:50:22.634 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2020-01-04 09:50:22.637 [main] INFO  com.course.Application - Started Application in 2.974 seconds (JVM running for 4.194)
+2020-01-04 09:50:28.959 [http-nio-8899-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 09:50:28.959 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-04 09:50:28.970 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-01-04 09:50:29.012 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-01-04 09:50:29.015 [http-nio-8899-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-04 09:50:29.147 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-01-04 09:51:15.159 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-01-04 09:51:15.161 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 09:51:15.164 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-01-04 09:51:15.173 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-01-04 10:16:03.579 [main] INFO  com.course.Application - Starting Application on SKY-20181215SIQ with PID 12072 (E:\muke\AutoTestOfJava\Chapter11\target\classes started by Administrator in E:\muke\AutoTestOfJava)
+2020-01-04 10:16:03.583 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2020-01-04 10:16:04.318 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-01-04 10:16:04.859 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2020-01-04 10:16:04.871 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-04 10:16:04.872 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 10:16:04.974 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-04 10:16:04.974 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1257 ms
+2020-01-04 10:16:05.419 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 10:16:05.706 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-01-04 10:16:05.779 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2020-01-04 10:16:05.783 [main] INFO  com.course.Application - Started Application in 2.723 seconds (JVM running for 5.415)
+2020-01-04 10:16:09.992 [http-nio-8899-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 10:16:09.992 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-01-04 10:16:09.999 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-01-04 10:16:10.041 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-01-04 10:16:10.044 [http-nio-8899-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-04 10:16:10.189 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
