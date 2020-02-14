@@ -5,7 +5,7 @@ import java.util.ResourceBundle;
 
 public class ConfigFile {
     private static ResourceBundle bundle=ResourceBundle.getBundle("application", Locale.CHINA);
-    private static  String getUrl(InerfaceName name){
+    public static  String getUrl(InerfaceName name){
         String address=bundle.getString("test.url");
         String uri="";
         //最终测试地址
@@ -26,6 +26,6 @@ public class ConfigFile {
             uri=bundle.getString("addUser.uri");
         }
         testUrl=address+uri;
-        return null;
+        return testUrl;
     }
 }
